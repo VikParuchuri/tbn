@@ -234,7 +234,7 @@ header h5 a{
 *********************************************************************/
 
 #newsletter {
-    background-color:#3498db;
+    background-color:#34495e;
 }
 
 #newsletter h2 {
@@ -249,7 +249,7 @@ header h5 a{
 
 #newsletter form input {
     color: #fff;
-    background: #34495e;
+    background: #3498db;
     font-size: 16px;
     padding: 15px 15px;
     font-weight: bold;
@@ -269,12 +269,12 @@ header h5 a{
 }
 
 #newsletter form input:focus {
-    background-color:#11273d;
+    background-color:#2b7cb2;
 }
 
 #newsletter form button.btn {
     color: #fff;
-    background: #34495e;
+    background: #3498db;
     font-size: 16px;
     padding: 16px 30px;
     display:inline-block;
@@ -283,7 +283,7 @@ header h5 a{
     margin:0;
     width:100%;
     border-radius:0;
-    border:1px solid #34495e;
+    border:1px solid #3498db;
     text-transform:uppercase;
     font-weight: bold;
     -webkit-box-shadow: none;
@@ -305,11 +305,60 @@ header h5 a{
     top: 0;
     padding-top: 15px;
     z-index: 1;
-    left: 30px;   
+    left: 30px;
 }
 
-#subscribe_button {
+#mc-embedded-subscribe {
     width:100%;
+}
+
+/********************************************************************
+	3. Survey Section
+*********************************************************************/
+
+#survey {
+    background-color:#2b7cb2;
+}
+
+#survey h2 {
+    text-align:center;
+    text-transform: uppercase;
+    margin:0 0 1em 0;
+}
+
+#survey-frame{
+    width: 500px;
+    height: 600px;
+}
+
+#survey button.btn {
+    color: #fff;
+    background: #34495e;
+    font-size: 16px;
+    padding: 16px 30px;
+    height:50px;
+    margin:0;
+    border-radius:0;
+    border:1px solid #34495e;
+    text-transform:uppercase;
+    font-weight: bold;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+#survey button.btn:hover {
+    background: #11273d;
+}
+
+#survey .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /********************************************************************
@@ -349,13 +398,19 @@ header h5 a{
     -o-transform: translateY(10px);
 }
 
+#features .subheader{
+    margin:2em 0 2em 0;
+    text-transform: uppercase;
+    text-align:center;
+}
+
 
 /********************************************************************
 	5. Social Section
 *********************************************************************/
 
 #social {
-    background-color:#34495e;
+    background-color:#3498db;
 }
 
 #social h2 {
@@ -412,7 +467,7 @@ header h5 a{
 
 #locate-overlay {
     position:relative;
-    background-color:rgba(52, 152, 219, 0.9);
+    background-color:rgba(52, 73, 94, 0.9);
     margin: 0 auto;
     max-width: none;
     padding:0 10px;
@@ -454,13 +509,13 @@ input.view-map-selector:checked ~ #view-address-btn {
 
 #locate label.btn {
     color: #fff;
-    background: #2b7cb2;
+    background: #11273d;
     font-size: 16px;
     padding: 16px 30px;
     font-weight: bold;
     margin-top:2em;
     border-radius:0;
-    border: 1px solid #2b7cb2;
+    border: 1px solid #11273d;
     cursor: pointer;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -472,7 +527,7 @@ input.view-map-selector:checked ~ #view-address-btn {
 }
 
 #locate label.btn:hover {
-    background: #3498db;
+    background: #34495e;
 }
 
 #view-address-btn {
@@ -487,12 +542,12 @@ input.view-map-selector:checked ~ #view-address-btn {
 
 #view-address-btn label {
     color: #fff;
-    background: #3498db;
+    background: #34495e;
     font-size: 16px;
     padding: 16px 30px;
     width:100%;
     font-weight: bold;
-    border: 1px solid #2b7cb2;
+    border: 1px solid #11273d;
     cursor: pointer;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -504,7 +559,7 @@ input.view-map-selector:checked ~ #view-address-btn {
 }
 
 #view-address-btn:hover label {
-    background: #2b7cb2;
+    background: #11273d;
 }
 
 
