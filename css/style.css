@@ -331,7 +331,7 @@ header h5 a{
     height: 600px;
 }
 
-#survey button.btn {
+#survey a.btn {
     color: #fff;
     background: #34495e;
     font-size: 16px;
@@ -351,7 +351,7 @@ header h5 a{
     transition: all 0.2s;
 }
 
-#survey button.btn:hover {
+#survey a.btn:hover {
     background: #11273d;
 }
 
