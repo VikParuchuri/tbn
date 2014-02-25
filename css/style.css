@@ -51,7 +51,7 @@ section {
     padding: 70px 0;
 }
 
-.content {
+.content-r {
     text-align:center;
 }
 
@@ -176,10 +176,39 @@ input, .btn {
 
 
 /********************************************************************
+	2. Navbar Section
+*********************************************************************/
+
+nav.navbar{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 0px;
+    border: none;
+}
+
+nav.navbar-default a.navbar-brand{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+nav.navbar-default a.navbar-brand:hover{
+    color: #3498db;
+}
+
+nav.navbar-default .navbar-nav li a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+nav.navbar-default .navbar-nav li a:hover{
+    color: #3498db;
+}
+
+/********************************************************************
 	2. Header Section
 *********************************************************************/
 
-header {
+header, nav {
     color: #fff;
     width:100%;
     min-height:400px;
@@ -361,6 +390,10 @@ header h5 a{
     margin-right: auto;
 }
 
+#survey .uv-block{
+    background-color: #ffffff;
+}
+
 /********************************************************************
 	4. Features Section
 *********************************************************************/
@@ -447,6 +480,20 @@ header h5 a{
 }
 
 /********************************************************************
+	8. About Us Section
+*********************************************************************/
+
+#about-us {
+    background-color:#34495e;
+}
+
+#about-us h2 {
+    text-transform: uppercase;
+    text-align:center;
+    margin:0 0 1em 0;
+}
+
+/********************************************************************
 	8. Locate Section
 *********************************************************************/
 
@@ -454,9 +501,10 @@ header h5 a{
     padding:0 0;
 }
 
-#locate .content {
+#locate .content-r {
     padding:0;
     max-width:none;
+    width: 100%;
 }
 
 #locate h2 {
@@ -467,7 +515,7 @@ header h5 a{
 
 #locate-overlay {
     position:relative;
-    background-color:rgba(52, 73, 94, 0.9);
+    background-color:rgba(52, 152, 219, 0.9);
     margin: 0 auto;
     max-width: none;
     padding:0 10px;
@@ -505,17 +553,17 @@ input.view-map-selector:checked ~ #locate-overlay {
 
 input.view-map-selector:checked ~ #view-address-btn {
     display:block;
-}   
+}
 
 #locate label.btn {
     color: #fff;
-    background: #11273d;
+    background: #2b7cb2;
     font-size: 16px;
     padding: 16px 30px;
     font-weight: bold;
     margin-top:2em;
     border-radius:0;
-    border: 1px solid #11273d;
+    border: 1px solid #2b7cb2;
     cursor: pointer;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -527,7 +575,7 @@ input.view-map-selector:checked ~ #view-address-btn {
 }
 
 #locate label.btn:hover {
-    background: #34495e;
+    background: #3498db;
 }
 
 #view-address-btn {
@@ -542,12 +590,12 @@ input.view-map-selector:checked ~ #view-address-btn {
 
 #view-address-btn label {
     color: #fff;
-    background: #34495e;
+    background: #3498db;
     font-size: 16px;
     padding: 16px 30px;
     width:100%;
     font-weight: bold;
-    border: 1px solid #11273d;
+    border: 1px solid #2b7cb2;
     cursor: pointer;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -559,7 +607,7 @@ input.view-map-selector:checked ~ #view-address-btn {
 }
 
 #view-address-btn:hover label {
-    background: #11273d;
+    background: #2b7cb2;
 }
 
 
